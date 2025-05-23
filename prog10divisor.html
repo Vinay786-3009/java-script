@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <script>
+            function a(){
+                var a = parseInt(document.getElementById("x").value);
+                var b = parseInt(document.getElementById("y").value);
+                
+                for (var i = a; i <= b; i++) {
+                    document.write(i + " ");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        start num:<input type="text" placeholder="starting range" id="x"><br>
+        ending num:<input type="text" placeholder="ending number" id="y"><br>
+        <button onclick="a()">diviser</button>
+    </body>
+</html>
